@@ -1,0 +1,41 @@
+    
+body {
+    background-image: linear-gradient(to right, #2A8C82, #41BFB3,#9BF2EA );
+   
+}
+
+
+div {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    width: 100px;
+    
+
+}
+div > p {
+    display: none;
+    
+    
+
+}
+
+div:hover > p {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    width: 1000px;
+    
+
+}
+#principal {
+    background-color: #2759506c;
+    color: #275950;
+    text-align: center;
+}
+
+.times {
+    background-color: #275950;
+    color: #260101;
+}

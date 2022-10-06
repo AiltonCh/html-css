@@ -1,0 +1,91 @@
+@charset "UTF-08";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+html, body {
+    min-height: 100hv;
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;   
+}
+
+header h1 {
+    font-family:var(--fonte2);
+    font-size: 7vw;
+    font-weight: bold;
+    font-variant: small-caps;
+    padding-top: 50px;
+    
+}
+
+header p {
+    padding-bottom: 50px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    font-family: var(--fonte3);
+    font-size: 3vw;
+    background-color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section p {
+    padding-bottom: 2em;
+}
+
+section.comimagem {
+    color: white;
+    background-size: cover;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.482);
+}
+
+section.comimagem p {
+    display: inline-block;
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 0.311);
+    text-shadow: 1.5px 1.5px  0px black;
+
+}
+
+#imagem1 {
+    background: white url(Imagens/Kamila002.jpg) left center no-repeat fixed ;
+}
+
+#imagem2 {
+    background: white url(Imagens/Kamila003.jpg) left center no-repeat fixed ;
+}
+
+footer {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}

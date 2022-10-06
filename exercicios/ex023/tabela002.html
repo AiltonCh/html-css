@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1,5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: grey;
+            color: white;
+        }
+
+        thead tr th {
+            position: sticky;
+            top: 0;
+            background-color: grey;
+        }
+
+        tbody tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        .centro {
+            text-align: center;
+        }
+
+        .esq {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+              <th scope="col">Estado</th>
+              <th scope="col">População</th>
+              <th scope="col">% da Pop. Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="esq">45 919 049</td>
+                <td class="centro">21,9%</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="esq">21 168 791</td>
+                <td class="centro">10,1%</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="esq">17 264 943</td>
+                <td class="centro">8,2%</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="esq">14.016.906</td>
+                <td class="centro">7,1%</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="esq">10.444.526</td>
+                <td class="centro">5,4%</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="esq">10.693.929</td>
+                <td class="centro">5,4%</td>
+            </tr>
+            <tr>
+                <td> Pernambuco</td>
+                <td class="esq">8.796.448</td>
+                <td class="centro">4,5%</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="esq">17 264 943</td>
+                <td class="centro">8,2%</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="esq">17 264 943</td>
+                <td class="centro">8,2%</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="esq">17 264 943</td>
+                <td class="centro">8,2%</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="esq">17 264 943</td>
+                <td class="centro">8,2%</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="esq">17 264 943</td>
+                <td class="centro">8,2%</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="esq">17 264 943</td>
+                <td class="centro">8,2%</td>
+            </tr>
+            <tr>
+                <td> Paraíba</td>
+                <td class="esq">17 264 943</td>
+                <td class="centro">8,2%</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="esq">17 264 943</td>
+                <td class="centro">8,2%</td>
+            </tr>
+            <tr>
+                <td> Rio Grande do Norte</td>
+                <td class="esq">17 264 943</td>
+                <td class="centro">8,2%</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="esq">17 264 943</td>
+                <td class="centro">8,2%</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td>221.345.917 (</td>
+                <td>100%</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
