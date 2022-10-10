@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Login</title>
+    <link rel="stylesheet" href="estilos/mobilestyle.css">
+    <link rel="stylesheet" href="stilos/all.css">
+</head>
+<body>
+   
+    <form action="../html-css/exercicios/ex025/cadastro.php" method="post">
+        <legend>
+            <img src="imagens/tela-de-login.png" alt="fundo de login">
+            Login
+           
+         </legend>
+        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p><br>
+        <p class="login">
+            <label for="inome"><img src="imagens/login.svg" alt="">
+            </label>
+            <input type="text" name="nome" id="inome" required minlength="4" maxlength="50" placeholder="Seu e-mail">
+        </p>
+
+        <p class="login">
+            <label for="isenha"><img src="imagens/senha.svg" alt="">
+            </label> 
+            <input type="password" name="senha" id="isenha" required min="1" max="20" placeholder="Sua senha">
+        </p>
+
+        <p class="entrar">
+            <input type="submit" value ="Entrar" >
+        </p>
+        <p class="log">
+            <input type="button" value="Esqueci a senha">
+        </p>
+
+    </form>
+</body>
+</html>
